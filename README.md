@@ -141,6 +141,10 @@ All effects run on a background thread, computed entirely on the host and stream
 - The keymap was built for one specific physical keyboard layout (Turkish ISO). Other regional layouts would need their own key-mapping pass, though the underlying per-key offsets are hardware (not layout) dependent and should transfer directly only the *labels* would need adjusting.
 - While the app is running, the vendor Control Center's keyboard-lighting page will not load this is the device lock working as designed, not a malfunction. It becomes available again the moment the app exits.
 
+## Community Projects
+
+- [BetterRGB ITE8291 Adaptive](https://github.com/ZavierChen/BetterRGB-ITE8291-Adaptive) by [@ZavierChen](https://github.com/ZavierChen): an independently developed derivative with 16 effects, power profiles, transitions, top-row indicator bars, white calibration and a Chinese/English UI. Verified on the Mechrevo 苍龙 16 X Pro (`048D:600B`).
+
 ## What's next
 
 A frame-by-frame custom animation editor is planned, letting the user design their own sequences directly rather than picking from preset effects.
